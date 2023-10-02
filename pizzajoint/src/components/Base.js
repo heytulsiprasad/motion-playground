@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+const bases = ['Classic', 'Thin & Crispy', 'Thick Crust'];
 
 const Base = ({ addBase, pizza }) => {
-  const bases = ['Classic', 'Thin & Crispy', 'Thick Crust'];
 
   return (
     <div className="base container">
