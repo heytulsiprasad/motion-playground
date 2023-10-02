@@ -6,8 +6,9 @@ const Home = () => {
   return (
     <motion.div
       className="home container"
-      initial={{ opacity: 0.1 }}
+      initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
+      transition={{ delay: 1, duration: 1.5 }}
     >
       <motion.h2 animate={{ fontSize: "48px", fontWeight: "bold" }}>
         Welcome to Pizza Joint
